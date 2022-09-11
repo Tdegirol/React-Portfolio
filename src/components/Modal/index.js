@@ -13,17 +13,19 @@ const Modal = ({ onClose, currentProject }) => {
         />
         <p>
           {description}
-          Click the link below to view this app:
+          <br />
+          Click the link below to view this app:        
+          <br />
+          <a
+            href='https://basepollz.herokuapp.com/'
+            target='_blank'
+            rel='noreferrer'
+            aria-label='project'
+          >
+            Basepollz App
+          </a>
         </p>
-        {/* <a
-          class='project link'
-          href='https://basepollz.herokuapp.com/'
-          target='_blank'
-          rel='noopener'
-          aria-label='project'
-        >
-          <i class='jpowij' />
-        </a> */}
+        <br />
         <button type="button" onClick={onClose}>
           Close
         </button>
