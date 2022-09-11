@@ -17,12 +17,12 @@ const Modal = ({ onClose, currentProject }) => {
           Click the link below to view this app:        
           <br />
           <a
-            href='https://basepollz.herokuapp.com/'
+            href={link}
             target='_blank'
             rel='noreferrer'
             aria-label='project'
           >
-            Basepollz App
+            {name}
           </a>
         </p>
         <br />

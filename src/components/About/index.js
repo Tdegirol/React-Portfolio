@@ -6,13 +6,9 @@ function About() {
       <h1 id="about">About Me</h1>
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          My name is TJ DeGirolamo and welcome to my portfolio page. My education includes a bachelor and master's degree in electrical engineering, and I have been working as a project manager in electrical contracting for almost 10 years.
+          My interest in programming started with QBASIC and Visual Basic in high school, and through college I took a C++ and Python course. Finally after years of working full time I took the full-stack web development course through Columbia University. This course has opened my eyes to the multitude of opportunties in the software development industry.
+          I look forward to growing this portfolio page with new projects and future endeavors. If you would like to reach out, please follow the navbar to the contact form, or click on one of the links below.
         </p>
         <img src={coverImage} className="my-2" style={{ width: "20%" }} alt="cover" />
       </div>

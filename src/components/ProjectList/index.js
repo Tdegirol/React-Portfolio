@@ -13,23 +13,23 @@ const ProjectList = () => {
     },
     {
       name: 'Currency Exchange Calculator',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      link: 'https://kenng8891.github.io/group_project/'
     },
     {
       name: 'Photo Port',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      link: 'https://tdegirol.github.io/photo-port/'
     },
     {
       name: 'Run Buddy',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      link: 'https://tdegirol.github.io/run-buddy/'
     },
     {
       name: 'Led Zeppelin Fanpage',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      link: 'https://tdegirol.github.io/fanpage/'
     }
   ]);
 

@@ -6,7 +6,8 @@ function Resume() {
       <h1 id="resume">Resume</h1>
       <div className="my-2">
         <p>
-            Insert Resume...
+          Please click the link below to view updated resume: <br />
+          <a href="https://drive.google.com/file/d/12dTfKdSkQOGEMCj1PwHZSh7P9_kC-JtY/view?usp=sharing">TJ DeGirolamo Resume</a>
         </p>
       </div>
     </section>
@@ -14,3 +15,4 @@ function Resume() {
 }
 
 export default Resume;
+
