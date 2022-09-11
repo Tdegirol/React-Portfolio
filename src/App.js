@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import ProjectList from './components/ProjectList';
+import Footer from './components/Footer';
 import Resume from './components/Resume';
 
 function App() {
@@ -28,24 +29,28 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      ></Nav>
-      <main>
-        {currentCategory === categories[0] ? (
-          <ProjectList></ProjectList>
-        ) : currentCategory === categories[1] ? (
-          <About></About>
-        ) : currentCategory === categories[2] ? (
-          <ContactForm></ContactForm>
-        ) : (
-          <Resume></Resume>
-        )}
-      </main>
+    <div className='page-container'>
+      <div className='content-wrapper'>
+        <Nav
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+        ></Nav>
+        <main>
+          {currentCategory === categories[0] ? (
+            <ProjectList></ProjectList>
+          ) : currentCategory === categories[1] ? (
+            <About></About>
+          ) : currentCategory === categories[2] ? (
+            <ContactForm></ContactForm>
+          ) : (
+            <Resume></Resume>
+          )} 
+        </main>
+      </div>
+      <Footer></Footer>
     </div>
+
   );
 }
 

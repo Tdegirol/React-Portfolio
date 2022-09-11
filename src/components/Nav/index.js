@@ -37,9 +37,6 @@ function Nav(props) {
               </span>
             </li>
           ))}
-          {/* <li className={`mx-2 ${projectsSelected && 'navActive'}`}>
-            <span onClick={() => setProjectsSelected(true)}>Contact</span>
-          </li>           */}
         </ul>
       </nav>
     </header>
